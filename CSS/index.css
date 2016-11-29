@@ -53,13 +53,6 @@ input[type=text]{
     top: 10px;
 
   }
-  .drop-down:hover{
-    color: blue;
-  }
-  .drop-down:hover .navbar {
-    display: inline-block;
-    background-color: #FE9022;
-  }
   .nav-element{
     display: block;
   }
