@@ -6,6 +6,10 @@
   background-color: #FE9022;
 
 }
+html,body{
+  margin: 0px;
+  padding: 0px;
+}
 .nav-element{
   display: inline;
 }
@@ -33,7 +37,7 @@ input[type=text]{
 @media screen and (max-width:768px){
   .drop-down{
     position: relative;
-    display:inline-block;
+    display: list-item;
     width: 100%;
     background-color: #FE9022;
   }
@@ -48,13 +52,14 @@ input[type=text]{
     padding: 0px;
     display: none;
     position: absolute;
-    background-color: #fff;
-    left: 0px;
-    top: 10px;
+    background-color:#FE9022;
 
   }
   .nav-element{
     display: block;
+  }
+  .nav-element:hover{
+    background-color:#FFC548;
   }
   .nav-element a{
     border-radius: 2px;
@@ -64,7 +69,7 @@ input[type=text]{
     padding-right: 25px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-left: 0px;
+    /*margin-left: 0px;*/
   }
 
 }
