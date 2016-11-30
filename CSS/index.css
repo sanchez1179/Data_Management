@@ -34,6 +34,12 @@ input{
 input[type=text]{
   text-align: center;
 }
+img{
+  width: 100%;
+}
+h1{
+  text-align:center;
+}
 @media screen and (max-width:768px){
   .drop-down{
     position: relative;
@@ -58,8 +64,8 @@ input[type=text]{
   .nav-element{
     display: block;
   }
-  .nav-element:hover{
-    background-color:#FFC548;
+  .nav-element a:hover{
+    display: block;
   }
   .nav-element a{
     border-radius: 2px;
